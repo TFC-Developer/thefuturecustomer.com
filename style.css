@@ -1,0 +1,287 @@
+@charset "UTF-8";
+@import url("Aller_Regular/stylesheet.css");
+@import url("Aller_Bold/stylesheet.css");
+@import url("Rex_Bold/stylesheet.css");
+@import url("tradegothic/stylesheet.css");
+@import url("johnston/stylesheet.css");
+
+html, body {
+    font-family: "johnston_itc_stdlight";
+    font-size: 16px;
+    line-height: 160%;
+    background-color: rgb(245, 245, 245);
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+.banner {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/assets/images/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*.banner {
+    height: 90vh;
+    width: 100%;
+    background: -moz-linear-gradient(top, rgba(40,40,50,0.93) 0%, rgba(40,40,50,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(40,40,50,0.9)), color-stop(100%,rgba(40,40,50,1)));
+    background: -webkit-linear-gradient(top, rgba(40,40,50,0.93) 0%,rgba(40,40,50,1) 100%); 
+    background: -o-linear-gradient(top, rgba(40,40,50,0.93) 0%,rgba(40,40,50,1) 100%); 
+    background: -ms-linear-gradient(top, rgba(40,40,50,0.93) 0%,rgba(40,40,50,1) 100%); 
+    background: linear-gradient(to bottom, rgba(40,40,50,0.93) 0%,rgba(40,40,50,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6282832', endColorstr='#282832',GradientType=0 ); 
+}*/
+
+.banner2 {
+    height: 100%;
+    width: 100%;
+    background: -moz-linear-gradient(top, rgba(40,40,50,0.95) 0%, rgba(40,40,50,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(40,40,50,0.9)), color-stop(100%,rgba(40,40,50,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(40,40,50,0.95) 0%,rgba(40,40,50,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(40,40,50,0.95) 0%,rgba(40,40,50,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(40,40,50,0.95) 0%,rgba(40,40,50,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(40,40,50,0.95) 0%,rgba(40,40,50,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6282832', endColorstr='#282832',GradientType=0 ); /* IE6-9 */
+}
+
+
+.logo {
+    display: block;
+    padding-top: 30px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    width: 95%;
+    max-width: 600px;
+    text-align: center;
+
+}
+
+.description-box {
+    position: relative;
+    width: 90%;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 8vh;
+    background-color: rgba(0,0,0, 0.7);
+}
+
+
+.description {
+    position: relative;
+    width: 70%;
+    max-width: 1000px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    line-height: 25px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 0px 0px 15px rgba(0,0,0,1);
+}
+
+ 
+@media screen and (max-width: 40em) {
+    .description {
+        font-size:1.2em;
+        line-height: 25px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+
+.details {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.contacts {
+    display: block;
+    padding-top: 30px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    width: 95%;
+    max-width: 600px;
+    text-align: center;
+
+}
+
+.nextevent {
+    position: relative;
+    width: 100px;
+    float: left;
+    max-width: 635px;
+    text-align: right;
+    font-family: "tradegothicbold";
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    line-height: 30px;
+    margin-right: auto;
+    margin-left: 20%;
+}
+
+.nextevent-where {
+    position: relative;
+    width: 49%;
+    float: right;
+    max-width: 635px;
+    text-align: left;
+    font-family: "tradegothicbold";
+    color: rgb(0, 194, 178);
+    font-size: 21px;
+    line-height: 30px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.smalleventgooglemaps {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    text-align: left;
+    margin-left: -15px;
+
+}
+ 
+.film {
+    position: relative;
+    width: 100%;
+}
+
+
+
+h3 {
+    font-size: 20px;
+    font-family: "rexbold";
+    letter-spacing: 0.5px;
+    margin: 0;
+    line-height: inherit;
+    color: rgb(0, 194, 178);
+}
+
+
+h5 {
+    font-size: 15px;
+    text-align: left;
+    font-family: "tradegothicbold";
+    line-height: 20px;
+    letter-spacing: -1;
+    margin: 0;
+    text-decoration:underline;
+    color: rgb(255,255,255);
+}
+
+
+.glass {
+    height: 100%;
+    margin-bottom: 50px;
+}
+
+.container-fluid {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.section-header {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 2em;
+    text-align: center;
+    font-family: "rexbold";
+    margin-top: 5px;
+    margin-bottom: 15px;
+    line-height: inherit;
+}
+
+.section {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.section2 {
+    border-bottom: 1px solid rgba(255, 255, 255,0.2);
+    color: rgb(245,245,245);
+    font-family: "johnston_itc_stdmedium";
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 1px;
+
+    padding-bottom: 15px;
+    padding-left: -15px;
+    min-width: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.background {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.footer {
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    color: rgb(0,0,0);
+}
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #333;
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+
+
+/*
+Sticky Footer by Ryan Fait
+http://ryanfait.com/
+*/
+
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -57px;
+}
+.footer, .footer-push {
+    height: 57px;
+}
