@@ -1,8 +1,4 @@
 @charset "UTF-8";
-@import url("Aller_Regular/stylesheet.css");
-@import url("Aller_Bold/stylesheet.css");
-@import url("Rex_Bold/stylesheet.css");
-@import url("tradegothic/stylesheet.css");
 @import url("johnston/stylesheet.css");
 
 html, body {
@@ -76,7 +72,7 @@ html {
     text-align: center;
     margin-top: 10vh;
     color: rgb(66, 201, 220);
-    font-family: consolas;
+    font-family: Consolas, monospace;
     font-size: 3em;
     line-height: 60px;
     padding-top: 35px;
