@@ -7,7 +7,7 @@
 
 html, body {
     font-family: "johnston_itc_stdlight";
-    font-size: 16px;
+    font-size: 14px;
     line-height: 160%;
     background-color: rgb(245, 245, 245);
 }
@@ -19,10 +19,18 @@ html {
 .banner {
     height: 100vh;
     width: 100%;
-    background-image: url(assets/images/background.jpg);
+    background-image: url(/assets/images/background-studio.jpg);
     background-size: cover;
     background-position: center;
 }
+
+@media screen and (max-width: 40em) {
+    .banner {
+        height: 100%;
+    }
+}
+
+
 
 /*.banner {
     height: 90vh;
@@ -53,134 +61,54 @@ html {
     display: block;
     padding-top: 30px;
     margin-top: 0px;
-    margin-left: auto;
+    margin-left: 15px;
     margin-right: auto;
     margin-bottom: 0px;
-    width: 95%;
-    max-width: 600px;
+    max-width: 400px;
     text-align: center;
 
 }
 
 .description-box {
     position: relative;
-    width: 90%;
-    max-width: 450px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    margin-top: 8vh;
-    background-color: rgba(0,0,0, 0.7);
-}
-
-
-.description {
-    position: relative;
-    width: 80%;
-    max-width: 1000px;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 1.2em;
-    line-height: 25px;
+    margin-top: 10vh;
+    color: rgb(66, 201, 220);
+    font-family: consolas;
+    font-size: 3em;
+    line-height: 60px;
     padding-top: 35px;
     padding-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
  
 @media screen and (max-width: 40em) {
-    .description {
-        font-size:1.2em;
-        line-height: 25px;
+    .description-box {
+        font-size:2em;
+        line-height: 40px;
         padding-top: 20px;
         padding-bottom: 20px;
+        margin-top: 8vh;
     }
 }
 
-
-.details {
-    position: relative;
-    width: 100%;
-    text-align: center;
-}
-
-.contacts {
-    display: block;
-    padding-top: 30px;
-    margin-top: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0px;
-    width: 95%;
-    max-width: 600px;
-    text-align: center;
-
-}
-
-.nextevent {
-    position: relative;
-    width: 100px;
-    float: left;
-    max-width: 635px;
-    text-align: right;
-    font-family: "tradegothicbold";
-    color: rgb(255, 255, 255);
-    font-size: 21px;
+.row {
     line-height: 30px;
-    margin-right: auto;
-    margin-left: 20%;
+    margin-top: 40vh;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    background-color: white;
 }
 
-.nextevent-where {
-    position: relative;
-    width: 49%;
-    float: right;
-    max-width: 635px;
-    text-align: left;
-    font-family: "tradegothicbold";
-    color: rgb(0, 194, 178);
-    font-size: 21px;
-    line-height: 30px;
-    margin-left: auto;
-    margin-right: 10px;
-}
-
-.smalleventgooglemaps {
-    position: relative;
-    width: 100px;
-    height: 30px;
-    text-align: left;
-    margin-left: -15px;
-
-}
- 
-.film {
-    position: relative;
-    width: 100%;
-}
-
-
-
-h3 {
-    font-size: 20px;
-    font-family: "rexbold";
-    letter-spacing: 0.5px;
-    margin: 0;
-    line-height: inherit;
-    color: rgb(0, 194, 178);
-}
-
-
-h5 {
-    font-size: 15px;
-    text-align: left;
-    font-family: "tradegothicbold";
-    line-height: 20px;
-    letter-spacing: -1;
-    margin: 0;
-    text-decoration:underline;
-    color: rgb(255,255,255);
+@media screen and (max-width: 40em) {
+    .row {
+        margin-top: 30vh;
+        margin-bottom: 50px;
+    }
 }
 
 
@@ -192,42 +120,6 @@ h5 {
 .container-fluid {
     padding-right: 10%;
     padding-left: 10%;
-}
-
-.section-header {
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 2em;
-    text-align: center;
-    font-family: "rexbold";
-    margin-top: 5px;
-    margin-bottom: 15px;
-    line-height: inherit;
-}
-
-.section {
-    padding-right: 0px;
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-
-.section2 {
-    border-bottom: 1px solid rgba(255, 255, 255,0.2);
-    color: rgb(245,245,245);
-    font-family: "johnston_itc_stdmedium";
-    font-size: 14px;
-    line-height: 26px;
-    letter-spacing: 1px;
-
-    padding-bottom: 15px;
-    padding-left: -15px;
-    min-width: 150px;
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .background {
